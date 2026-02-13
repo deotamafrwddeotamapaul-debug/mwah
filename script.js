@@ -1,5 +1,5 @@
 // Typing Animation
-const text = "Hi ULVA… I made something for you.";
+const text = "Hi Puchku… I made something for you.";
 let i = 0;
 
 function typeWriter() {
@@ -37,11 +37,11 @@ function sendKiss() {
 
 // Love Reasons
 const reasons = [
-  "Because you make ordinary days feel safe.",
-  "Because your voice calms me instantly.",
+  "Because you calm me down.",
+  "Because your listen to me patiently.",
+  "Because you love me unconditionally.",
+  "Because you make me feel safe.",
   "Because you are gentle without even trying.",
-  "Because you choose me every day.",
-  "Because five months with you feels like home.",
   "Because I can be completely myself with you."
 ];
 
