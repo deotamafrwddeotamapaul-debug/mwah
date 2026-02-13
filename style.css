@@ -94,7 +94,7 @@ button:hover {
   margin: 25px auto;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  transform: rotate(-2deg);
+  transform: rotate(-3deg);
   transition: transform 0.4s ease;
 }
 
