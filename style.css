@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #FCE7F3;
+  color: #3F3F46;
+  text-align: center;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  background-color: #E11D48;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #BE123C;
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+#letter {
+  padding: 50px 20px;
+  animation: fadeIn 1s ease forwards;
+}
+
+.kiss-btn {
+  margin-top: 20px;
+}
+
+#kiss-container {
+  position: relative;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.kiss {
+  position: absolute;
+  font-size: 24px;
+  animation: floatUp 2s ease forwards;
+}
+
+.reasons {
+  margin-top: 40px;
+}
+
+#reason-text {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.ending {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+@keyframes floatUp {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-80px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
